@@ -1,0 +1,37 @@
+body { 
+    font-family: serif; 
+    background-color: black; 
+    color: white; 
+    padding: 1.5em 3em 
+}
+
+h1 {
+    color: rgb(111, 177, 12)
+}
+
+a { 
+   color:rgba(0, 255, 34, 0.74) 
+}
+
+img { 
+    height: 25em;  
+    display: block; 
+    margin: auto; 
+}
+
+ul {
+    /* list-style-image: url('penguin.gif') TOO BIG */
+    list-style-type: lower-roman
+}
+
+ul li ul li{
+    list-style-type: upper-alpha
+}
+
+.italicize { 
+    font-style: italic; 
+}
+
+/* #coolest-thing { 
+    border: .1em solid rgb(0, 162, 255)
+} */
